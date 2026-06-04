@@ -1,0 +1,179 @@
+/* Force the browser window to allocate full structural height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Establish a vertical flex layout on the body */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    color: #1e293b;
+    background-color: #f8fafc;
+    
+    /* Flexbox rules to fix the footer alignment */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header & Navigation Menu styling */
+header {
+    background-color: #0f172a; /* Sleek dark blue/slate */
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #38bdf8; /* Light sky blue accent on hover */
+}
+
+/* Content Layout Spacing */
+main {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 0 24px;
+    flex: 1; /* CRITICAL: This pushes the footer down */
+}
+section {
+    padding: 20px 0;
+}
+
+h1 {
+    color: #0f172a;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #1e3a8a; /* Deep blue headings */
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e2e8f0;
+    margin: 30px 0;
+}
+
+.company {
+    font-style: italic;
+    color: #64748b;
+}
+
+/* Projects Styling */
+.project-item {
+    margin-bottom: 25px;
+}
+
+.project-item h3 {
+    margin-bottom: 5px;
+    color: #0f172a;
+}
+
+.timeline {
+    margin: 0 0 10px 0;
+    font-style: italic;
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.project-item ul {
+    padding-left: 20px;
+}
+
+.project-item li {
+    margin-bottom: 10px;
+}
+
+/* Awards Grid Styling */
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.award-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.award-card h4 {
+    margin: 0 0 5px 0;
+    color: #1e3a8a;
+}
+
+.award-card p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+#backToTop {
+    position: fixed;       /* Keeps the button locked in place relative to the screen */
+    bottom: 30px;          /* 30px up from the bottom edge */
+    right: 30px;           /* 30px in from the right edge */
+    z-index: 99;           /* Ensures it floats on top of all other content */
+    
+    /* Visual Styling */
+    background-color: #0f172a; /* Matches your header dark slate color */
+    color: #38bdf8;            /* Sky blue text/arrow accent */
+    border: 1px solid #38bdf8;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 50px;       /* Gives it clean, rounded capsule edges */
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+}
+
+/* Hover State */
+#backToTop:hover {
+    background-color: #38bdf8; /* Inverts colors on hover */
+    color: #0f172a;
+    transform: translateY(-3px); /* Subtle UI/UX micro-interaction lift effect */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+footer a {
+    color: #38bdf8;
+}

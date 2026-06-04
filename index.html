@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Maria | Portfolio</title>
+    <!-- Link our CSS file here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Menu -->
+    <header>
+        <div class="logo">Grace Maria</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education & Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+        
+        <!-- About / Hero Section -->
+        <section id="about">
+            <h1>Full Stack Developer | Cyber Security Researcher | Passionate Educator</h1>
+            <p>
+                Hi! I'm Grace, a developer turned secure software engineer who views software through a lens of resilience, 
+                security, and compliance. With over three years of industry experience managing complex microservices for 
+                high-stakes banking environments, I excel at optimizing system efficiency and eliminating vulnerabilities before 
+                they reach production. Currently completing my Master’s in Cyber Forensics & Security with a 4.0 GPA, I am 
+                deepening my expertise in NIST frameworks, API testing, and forensic investigation. My professional background 
+                is uniquely diverse, spanning from enterprise backend engineering to compliance-driven environments, ensuring 
+                that the applications I help build are both highly secure and rigorously compliant. Beyond the code, I am a 
+                dedicated technical leader and mentor who believes that strong communication and collaborative environments 
+                are vital to solving today's complex digital challenges. I love tackling complex backend architectures and 
+                transforming them into secure, scalable, and resilient systems. Let's build something secure together.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Certifications & Awards Section -->
+        <section id="awards">
+            <h2>Certifications & Awards</h2>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <h4>Angular: Design to Deploy Certification</h4>
+                    <p>Udemy, 2024</p>
+                </div>
+                <div class="award-card">
+                    <h4>TCS Career Management Award</h4>
+                    <p>Tata Consultancy Services, 2023</p>
+                </div>
+                <div class="award-card">
+                    <h4>Graduate Aptitude Test in Engineering (GATE)</h4>
+                    <p>Computer Science | IIT Kanpur, 2023</p>
+                </div>
+                <div class="award-card">
+                    <h4>Walgreens Top Immunizer Award</h4>
+                    <p>Walgreens, 2025</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="backToTop" onclick="scrollToTop()">↑ Top</button>
+
+    <!-- Footer / Contact -->
+    <footer id="contact">
+        <h2>Let's Connect</h2>
+        <p>Looking for a security-focused engineer or digital forensics collaborator?</p>
+        <p>Email: <a href="mailto:gracemaria.us@gmail.com">gracemaria.us@gmail.com</a> | Location: Elmhurst, IL</p>
+        <p>&copy; 2026 Grace Maria. Built for Training Practice.</p>
+    </footer>
+
+    <script>
+        // Function that smoothly scrolls the window back to the absolute top coordinate
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' /* Creates a sleek sliding transition instead of a jarring jump */
+            });
+        }
+    </script>
+    
+</body>
+</html>
