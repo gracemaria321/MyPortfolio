@@ -2,91 +2,182 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education & Projects | Grace Maria</title>
-    <meta name="description" content="Explore Grace Maria's engineering background, including Java microservices production and academic research in NG911 and AI laws.">
+    <title>Experience | Grace Maria</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <div class="scenic-background"></div>
     <header>
         <div class="logo">Grace Maria</div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="education.html">Education & Projects</a></li>
+                <li><a href="experience.html" class="active">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        
-        <!-- Technical Skills Summary -->
-        <section id="skills">
-            <h2>Core Technical Arsenal</h2>
-            <ul>
-                <li><strong>Languages & Frameworks:</strong> Java, Spring Boot, Python, C/C++, JUnit</li>
-                <li><strong>Developer Tools & Environment:</strong> Git, Maven, Swagger, SoapUI, Postman, SQL, Jira, FIGMA, SDLC, Agile, Wireshark</li>
-                <li><strong>Architecture & Methodology:</strong> MVC Architecture, Object-Oriented Analysis and Design (OOAD)</li>
-                <li><strong>Web & Web Services:</strong> RESTful APIs, Web Services Development, Microservices, SOAP, JavaScript</li>
-                <li><strong>Databases:</strong> SQL, Oracle, DB2, Relational Databases, Complex SQL Queries</li>  
-                <li><strong>Security & Forensics:</strong> Secure Coding, API Security, Digital Forensics, OSINT, NIST Frameworks, OWASP</li>              
-            </ul>
+    <main class="journey-container">
+        <div class="portfolio-popup">
+            <section id="experience">
+            <div class="section-title-wrapper">
+                <h2>Professional Milestones</h2>
+                <span class="terminal-pulse">My Career Trajectory</span>
+            </div>
+            
+            <div class="experience-timeline">
+                
+                <div class="timeline-item" data-date="June 2026 - Present">
+                    <div class="timeline-dot"></div>
+                    <div class="job-card">
+                        <span class="job-type">Remote // UK</span>
+                        <h3>IT Support Engineer Intern</h3>
+                        <p class="company-name">Premium Technologies Private Limited</p>
+                        <ul class="job-details">
+                            <li>Collaborated on corporate website maintenance, UI/UX optimization, and active CMS infrastructure management.</li>
+                            <li>Applied UX/UI principles and SEO strategies to enhance search visibility across web platforms.</li>
+                            <li>Developed efficient, testable code within the corporate CMS to support daily infrastructure updates.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-date="Sep 2024 - Present">
+                    <div class="timeline-dot"></div>
+                    <div class="job-card">
+                        <span class="job-type">Part-Time // US</span>
+                        <h3>Pharmacy Technician</h3>
+                        <p class="company-name">Walgreens</p>
+                        <ul class="job-details">
+                            <li>Enforced strict HIPAA and safety compliance protocols to protect sensitive patient health information (PHI).</li>
+                            <li>Optimized medication inventory systems, improving stock accuracy and reducing fulfillment delays.</li>
+                            <li>Collaborated on workflow optimization to ensure operational efficiency during high-volume periods.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-date="Jun 2024 - Present">
+                    <div class="timeline-dot"></div>
+                    <div class="job-card">
+                        <span class="job-type">Seasonal // India</span>
+                        <h3>Online Tutor</h3>
+                        <p class="company-name">Learnizo</p>
+                        <ul class="job-details">
+                            <li>Facilitated 50+ technical sessions on Web Development, OS, Discrete Mathematics, and Java programming.</li>
+                            <li>Engineered tailored lesson plans and digital tools to enhance technical comprehension and engagement.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-date="Aug 2023 - Apr 2024">
+                    <div class="timeline-dot"></div>
+                    <div class="job-card">
+                        <span class="job-type">Full-Time // India</span>
+                        <h3>Systems Engineer</h3>
+                        <p class="company-name">Tata Consultancy Services Ltd.</p>
+                        <ul class="job-details">
+                            <li>Directed the deployment of 20+ Java microservices for high-stakes banking operations.</li>
+                            <li>Architected secure Banking Services using Spring Boot, optimizing transaction processing efficiency by 25%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-date="Aug 2021 - Apr 2023">
+                    <div class="timeline-dot"></div>
+                    <div class="job-card">
+                        <span class="job-type">Full-Time // India</span>
+                        <h3>Assistant Systems Engineer</h3>
+                        <p class="company-name">Tata Consultancy Services Ltd.</p>
+                        <ul class="job-details">
+                            <li>Mitigated vulnerabilities and reduced UAT bug reports by 40% using JUnit and Karate frameworks.</li>
+                            <li>Developed secure RESTful APIs and integrated Maven, reducing build times by 30%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
         </section>
-
-        <hr>
-
-        <!-- Experience Section -->
-        <section id="experience">
-            <h2>Professional Milestones</h2>
-            
-            <div class="job">
-                <h3>IT Support Engineer Intern</h3>
-                <p class="company">Premium Technologies Private Limited, United Kingdom (Remote) | June 2026 - Present</p>
-                <p>Collaborated on corporate website maintenance, UI/UX optimization, and active CMS infrastructure management.</p>
-                <p>Applied a strong understanding of UX/UI principles and SEO strategies to enhance user experience and search visibility across web platforms.</p>
-                <p>Wrote well-designed, testable, and efficient code within the corporate CMS to support active website infrastructure and daily updates.</p>
-            </div>
-            
-            <div class="job">
-                <h3>Pharmacy Technician</h3>
-                <p class="company">Walgreens, United States (Part-Time) | Sep 2024 - Present</p>
-                <p>Enforced strict HIPAA and safety compliance protocols through rigorous documentation and process control to protect sensitive patient health information (PHI).</p>
-                <p>Optimized medication inventory systems to improve stock accuracy and reduce fulfillment delays, demonstrating high attention to detail in a regulated environment.</p>
-                <p>Collaborated on workflow optimization initiatives to prevent errors and ensure operational efficiency during high-volume periods.</p>
-            </div>
-
-            <div class="job">
-                <h3>Online Tutor</h3>
-                <p class="company">Learnizo, India (Seasonal) | Jun 2024 - Present</p>
-                <p>Facilitated 50+ technical sessions covering Web Application Development, Operating Systems (OS), Discrete Mathematics, and Java programming for diverse learners.</p>
-                <p>Engineered tailored lesson plans and digital tools to enhance technical comprehension and student engagement.</p>
-            </div>
-
-            <div class="job">
-                <h3>Systems Engineer</h3>
-                <p class="company">Tata Consultancy Services Ltd., India | Aug 2023 - Apr 2024</p>
-                <p>Directed the end-to-end development and deployment of 20+ Java microservices for high-stakes banking operations, ensuring secure and scalable system architecture.</p>
-                <p>Architected and implemented a secure Banking Services using Spring Boot, which optimized transaction processing and improved system efficiency by 25%.</p>
-            </div>
-            
-            <div class="job">
-                <h3>Assitant Systems Engineer</h3>
-                <p class="company">Tata Consultancy Services Ltd., India | Aug 2021 - Apr 2023</p>
-                <p>Mitigated system vulnerabilities and reduced UAT bug reports by 40% by designing robust API integration tests and utilizing JUnit and Karate frameworks.</p>
-                <p>Developed secure RESTful APIs and integrated Maven to automate build processes, resulting in a 30% reduction in build time and increased team productivity.</p>
-            </div>
-        </section>
-
+        </div>
     </main>
 
-    <button id="backToTop" onclick="scrollToTop()">↑ Top</button>
+    <main class="journey-container">
+        <div class="portfolio-popup">
+            <section id="skills">
+                <div class="section-title-wrapper">
+                    <h2>Core Technical Arsenal</h2>
+                    <span class="terminal-pulse">// Systems &amp; Security Capabilities Matrix</span>
+                </div>
+                
+                <div class="skills-matrix-container">
+                    <div class="skills-branch">
+                        <h4>Languages &amp; Frameworks</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag highlight">Java</span>
+                            <span class="skill-tag highlight">Spring Boot</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C/C++</span>
+                            <span class="skill-tag">JUnit</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-branch">
+                        <h4>Web, Architecture &amp; Methodology</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag highlight">Microservices</span>
+                            <span class="skill-tag highlight">RESTful APIs</span>
+                            <span class="skill-tag">Web Services Development</span>
+                            <span class="skill-tag">SOAP</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">MVC Architecture</span>
+                            <span class="skill-tag">OOAD</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-branch">
+                        <h4>Security &amp; Forensics</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag highlight">Secure Coding</span>
+                            <span class="skill-tag highlight">API Security</span>
+                            <span class="skill-tag highlight">Digital Forensics</span>
+                            <span class="skill-tag">OSINT</span>
+                            <span class="skill-tag">NIST Frameworks</span>
+                            <span class="skill-tag">OWASP</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-branch">
+                        <h4>Databases &amp; Information Warehousing</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Oracle</span>
+                            <span class="skill-tag">DB2</span>
+                            <span class="skill-tag">Relational Databases</span>
+                            <span class="skill-tag">Complex SQL Queries</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-branch">
+                        <h4>Developer Tools &amp; Infrastructure</h4>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Maven</span>
+                            <span class="skill-tag">Swagger</span>
+                            <span class="skill-tag">SoapUI</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">Wireshark</span>
+                            <span class="skill-tag">Jira</span>
+                            <span class="skill-tag">FIGMA</span>
+                            <span class="skill-tag">SDLC</span>
+                            <span class="skill-tag">Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
     
-    <footer>
-        <p>&copy; 2026 Grace Maria. Built for Training Practice.</p>
-    </footer>
+    <button id="backToTop" onclick="scrollToTop()">↑ Top</button>
 
     <script>
         // Function that smoothly scrolls the window back to the absolute top coordinate
@@ -97,6 +188,7 @@
             });
         }
     </script>
-
+    
+    <footer>&copy; 2026 Grace Maria.</footer>
 </body>
 </html>
